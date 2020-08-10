@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+### Angular コマンド一覧
+
+```
+// ワークスペース作成
+$ ng new multiple-projects-app \
+    --createApplication=false \
+    --interactive=false \
+    --strict
+
+// プロジェクト作成
+$ cd multiple-projects-app
+$ ng g application customer \
+    --style=scss \
+    --routing=true
+$ ng g application admin \
+    --style=scss \
+    --routing=true 
+
+// ライブラリ作成
+$ ng g library common
+
+```
