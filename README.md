@@ -48,4 +48,8 @@ $ ng g application admin \
 // ライブラリ作成
 $ ng g library common
 
+// コンポーネント作成
+ng g component components/home \
+    --project=customer
+
 ```
